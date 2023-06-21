@@ -30,5 +30,5 @@ EOF
 ### Analyze traffic
 ```kubectl attach deployment/helloworld -c tcpdumper```
 
-## Undo changes / rollback
+### Undo changes / rollback
 ```kubectl rollout undo deployment/helloworld```
