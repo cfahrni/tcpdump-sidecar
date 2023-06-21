@@ -11,7 +11,7 @@
 ## Run Container in Kubernetes
 ### Create Patch
 ```bash
-cat <<EOF >patch.yaml
+cat <<EOF >patch.yml
 spec:
   template:
     spec:
